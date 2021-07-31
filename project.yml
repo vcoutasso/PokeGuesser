@@ -1,0 +1,24 @@
+name: PokeGuesser
+
+settings:
+  DEVELOPMENT_TEAM: H7BM7N56V5
+
+options:
+  bundleIdPrefix: com.vcoutasso
+  deploymentTarget:
+    iOOS: 14.0
+
+targets:
+  PokeGuesser:
+    type: application
+    platform: iOS
+    sources:
+      - path: PokeGuesser
+    preBuildScripts:
+      - name: SwiftLint
+        script: |
+          "${PODS_ROOT}/SwiftLint/swiftlint"
+      - name: SwiftGen
+        script: |
+          "${PODS_ROOT}/SwiftGen/bin/swiftgen"
+
