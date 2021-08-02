@@ -8,6 +8,7 @@ target 'PokeGuesser' do
   pod 'SwiftFormat/CLI'
   pod 'SwiftLint'
   pod 'SwiftGen'
+  # pod 'SwiftyGif'
 
 end
 

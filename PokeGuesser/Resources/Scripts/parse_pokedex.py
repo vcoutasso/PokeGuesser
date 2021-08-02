@@ -1,8 +1,8 @@
 import json
 import csv
 
-input_file = '../pokedex.csv'
-output_file = '../pokedex.json'
+input_file = '../Data/pokedex.csv'
+output_file = '../Data/pokedex.json'
 
 pokedex = {'pokemons': []}
 

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fUH-c1-98c">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,13 +13,13 @@
         <!--Guesser View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GuesserViewController" customModule="PokeGuesser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GuesserViewController" id="BYZ-38-t0r" customClass="GuesserViewController" customModule="PokeGuesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="redraw" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Sqa-SM-kXX">
-                                <rect key="frame" x="20" y="84" width="374" height="727"/>
+                                <rect key="frame" x="20" y="128" width="374" height="683"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3L-Ic-aRK">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="21.5"/>
@@ -27,10 +28,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bzF-fo-uag">
-                                        <rect key="frame" x="0.0" y="41.5" width="374" height="566"/>
+                                        <rect key="frame" x="0.0" y="41.5" width="374" height="522"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Nro-GN-ayg">
-                                        <rect key="frame" x="0.0" y="627.5" width="374" height="99.5"/>
+                                        <rect key="frame" x="0.0" y="583.5" width="374" height="99.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eht-pu-fXA">
                                                 <rect key="frame" x="0.0" y="0.0" width="183" height="99.5"/>
@@ -40,14 +41,20 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="6im-92-cXR" secondAttribute="height" multiplier="4" id="9aK-lA-lPc"/>
                                                         </constraints>
-                                                        <state key="normal" title="Option 1"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <state key="normal" title="Option 1">
+                                                            <color key="titleColor" name="pokeBlue"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mg-iv-cRt">
                                                         <rect key="frame" x="0.0" y="54" width="183" height="45.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="6mg-iv-cRt" secondAttribute="height" multiplier="4" id="qav-O5-PnS"/>
                                                         </constraints>
-                                                        <state key="normal" title="Option 3"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <state key="normal" title="Option 3">
+                                                            <color key="titleColor" name="pokeBlue"/>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -59,14 +66,20 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="bMO-Ix-BzT" secondAttribute="height" multiplier="4" id="GfP-zp-QaA"/>
                                                         </constraints>
-                                                        <state key="normal" title="Option 2"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <state key="normal" title="Option 2">
+                                                            <color key="titleColor" name="pokeBlue"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwv-p8-9Im">
                                                         <rect key="frame" x="0.0" y="54" width="183" height="45.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="fwv-p8-9Im" secondAttribute="height" multiplier="4" id="dZ7-Dw-eMp"/>
                                                         </constraints>
-                                                        <state key="normal" title="Option 4"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <state key="normal" title="Option 4">
+                                                            <color key="titleColor" name="pokeBlue"/>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -97,6 +110,7 @@
                             <constraint firstItem="Sqa-SM-kXX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="qPv-R6-39y"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="I5n-g8-fib"/>
                     <connections>
                         <outlet property="image" destination="bzF-fo-uag" id="c4q-wR-eAR"/>
                         <outlet property="scoreLabel" destination="U3L-Ic-aRK" id="Hwg-FE-RZR"/>
@@ -108,10 +122,92 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
+            <point key="canvasLocation" x="902.89855072463774" y="95.758928571428569"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="x7d-E5-Kvp">
+            <objects>
+                <viewController id="2bi-e7-HOE" customClass="HomeViewController" customModule="PokeGuesser" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VLQ-2Y-gpd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9o8-Gd-6eb">
+                                <rect key="frame" x="20" y="238" width="374" height="424"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBo-xK-jdZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="386.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMm-PH-tVo">
+                                        <rect key="frame" x="0.0" y="386.5" width="374" height="37.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dMm-PH-tVo" secondAttribute="height" multiplier="10/1" id="nMv-HL-dxy"/>
+                                        </constraints>
+                                        <size key="titleShadowOffset" width="2" height="2"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="pokeYellow"/>
+                                            <color key="titleShadowColor" name="pokeBlue"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="0Xo-yI-OOr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="CBo-xK-jdZ" secondAttribute="trailing" id="GeX-rc-rVE"/>
+                                    <constraint firstItem="CBo-xK-jdZ" firstAttribute="leading" secondItem="9o8-Gd-6eb" secondAttribute="leading" id="rhv-8M-u3v"/>
+                                    <constraint firstItem="CBo-xK-jdZ" firstAttribute="top" relation="lessThanOrEqual" secondItem="9o8-Gd-6eb" secondAttribute="top" constant="50" id="ws0-Qk-wcf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vdO-oN-gsp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vdO-oN-gsp" firstAttribute="bottom" secondItem="9o8-Gd-6eb" secondAttribute="bottom" constant="200" id="IKT-70-mq7"/>
+                            <constraint firstItem="9o8-Gd-6eb" firstAttribute="top" secondItem="vdO-oN-gsp" secondAttribute="top" constant="150" id="QxT-ty-IG3"/>
+                            <constraint firstItem="9o8-Gd-6eb" firstAttribute="leading" secondItem="vdO-oN-gsp" secondAttribute="leading" constant="20" id="dd6-OL-7Yz"/>
+                            <constraint firstItem="vdO-oN-gsp" firstAttribute="trailing" secondItem="9o8-Gd-6eb" secondAttribute="trailing" constant="20" id="yXb-xF-yYL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="itv-Ux-Hjh"/>
+                    <connections>
+                        <outlet property="newGame" destination="dMm-PH-tVo" id="g0y-wg-y7Y"/>
+                        <outlet property="titleLabel" destination="CBo-xK-jdZ" id="b9h-uw-VBB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t0t-As-jq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89.855072463768124" y="75.669642857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SHe-R7-cHY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fUH-c1-98c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="1kR-XE-AqL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2bi-e7-HOE" kind="relationship" relationship="rootViewController" id="uEB-aG-I5e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eha-j2-7ZG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1000.0000000000001" y="75.669642857142847"/>
         </scene>
     </scenes>
     <resources>
+        <namedColor name="pokeBlue">
+            <color red="0.23921568627450981" green="0.49019607843137253" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pokeYellow">
+            <color red="1" green="0.79607843137254897" blue="0.019607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

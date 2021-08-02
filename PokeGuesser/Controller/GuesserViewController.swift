@@ -15,23 +15,22 @@ class GuesserViewController: UIViewController {
     var game: GuessingGame!
 
     private func updateView() {
+        scoreLabel.text = "Score: \(game.score)/\(game.pokemonCount)"
         if let currentPokemon = game.currentPokemon {
             UIView.transition(with: view,
                               duration: Constants.pokemonTransitionDuration,
-                              options: [.transitionCrossDissolve, .curveEaseInOut]) {
+                              options: [.transitionCrossDissolve, .curveEaseInOut, .allowUserInteraction]) {
                 self.image.image = UIImage(named: currentPokemon.imgName)
-                self.image.setImageColor(color: #colorLiteral(red: 0, green: 0.07427774821, blue: 0.1634875211, alpha: 0.9029782529))
+                self.image.setImageColor(color: UIColor(named: "pokeHidden")!)
 
                 let options = self.game.getNameOptions()
 
                 for idx in options.indices {
                     self.optionButtons[idx].setTitle(options[idx], for: .normal)
                 }
-
-                self.scoreLabel.text = "Score: \(self.game.score)/\(self.game.pokemonCount)"
             }
         } else {
-            // TODO: GAME OVER
+            navigationController?.popViewController(animated: true)
         }
     }
 
@@ -44,7 +43,9 @@ class GuesserViewController: UIViewController {
             button.titleLabel?.textAlignment = .center
             button.titleLabel?.numberOfLines = 1
             button.layer.cornerRadius = Constants.buttonCornerRadius
-            button.layer.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+            button.layer.backgroundColor = UIColor(named: "pokeYellow")?.cgColor
+            button.layer.borderColor = UIColor(named: "pokeNavyBlue")?.cgColor
+            button.layer.borderWidth = 1
             button.clipsToBounds = true
         }
         updateView()
@@ -57,11 +58,15 @@ class GuesserViewController: UIViewController {
             image.resetImageColor(animated: true, completion: updateView)
             game.nextPokemon()
 
-            UIView.transition(with: sender, duration: Constants.buttonAnimationDuration, options: .curveLinear) {
+            UIView.transition(with: sender,
+                              duration: Constants.buttonAnimationDuration,
+                              options: [.curveLinear, .allowUserInteraction]) {
                 sender.backgroundColor = scored ? .green : .red
             } completion: { _ in
-                UIView.transition(with: sender, duration: Constants.buttonAnimationDuration, options: .curveLinear) {
-                    sender.layer.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+                UIView.transition(with: sender,
+                                  duration: Constants.buttonAnimationDuration,
+                                  options: [.curveLinear, .allowUserInteraction]) {
+                    sender.layer.backgroundColor = UIColor(named: "pokeYellow")?.cgColor
                 }
             }
         }
