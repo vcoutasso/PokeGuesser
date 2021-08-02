@@ -56,7 +56,7 @@ struct GuessingGame {
 
     func getNameOptions(qty: Int = 4) -> [String] {
         if let currentName = currentPokemon?.name {
-            var options: [String] = Array(availablePokemons
+            var options: [String] = Array(pokedex.pokemons
                 .filter { $0.name != currentName }
                 .map { $0.name }
                 .shuffled()
@@ -70,7 +70,9 @@ struct GuessingGame {
     // TODO: Implement the remaining getOptions functions
 
     mutating func nextPokemon() {
-        availablePokemons.remove(at: availablePokemons.firstIndex(of: currentPokemon!)!)
-        currentPokemon = availablePokemons.randomElement()
+        if let toBeRemoved = currentPokemon {
+            availablePokemons.remove(at: availablePokemons.firstIndex(of: toBeRemoved)!)
+            currentPokemon = availablePokemons.randomElement()
+        }
     }
 }

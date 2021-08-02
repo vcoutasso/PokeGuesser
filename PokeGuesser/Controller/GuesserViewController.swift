@@ -16,11 +16,17 @@ class GuesserViewController: UIViewController {
     var pokemon: Int = 0
 
     private func updateView() {
-        image.image = UIImage(named: game.currentPokemon!.imgName)
-        image.setImageColor(color: .red)
-        let options = game.getNameOptions()
-        for idx in options.indices {
-            optionButtons[idx].setTitle(options[idx], for: .normal)
+        if let currentPokemon = game.currentPokemon {
+            image.image = UIImage(named: currentPokemon.imgName)
+            image.setImageColor(color: .red)
+
+            let options = game.getNameOptions()
+
+            for idx in options.indices {
+                optionButtons[idx].setTitle(options[idx], for: .normal)
+            }
+        } else {
+            // TODO: GAME OVER
         }
     }
 
