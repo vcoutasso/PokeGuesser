@@ -8,11 +8,19 @@
 import Foundation
 
 struct GuessingGame {
+    // MARK: - Private Variables
+
     private let pokedex: Pokedex
 
     private var availablePokemons: [Pokemon]
 
     private(set) var currentPokemon: Pokemon?
+
+    // MARK: - Variables
+
+    var score = 0
+
+    // MARK: - Initialization
 
     init() {
         pokedex = Pokedex()
@@ -22,8 +30,15 @@ struct GuessingGame {
 
     // MARK: - Public Functions
 
-    func guessName(_ guess: String) -> Bool {
-        currentPokemon?.name == guess ? true : false
+    mutating func guessName(_ guess: String) -> Bool {
+        if let currentName = currentPokemon?.name {
+            if currentName == guess {
+                score += 1
+                return true
+            }
+        }
+
+        return false
     }
 
     func guessTypes(_ guess: [String]) -> Bool {
@@ -39,6 +54,7 @@ struct GuessingGame {
                 return true
             }
         }
+
         return false
     }
 

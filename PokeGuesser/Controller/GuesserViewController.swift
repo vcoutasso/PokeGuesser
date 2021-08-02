@@ -10,6 +10,7 @@ import UIKit
 class GuesserViewController: UIViewController {
     @IBOutlet var image: UIImageView!
     @IBOutlet var optionButtons: [UIButton]!
+    @IBOutlet var scoreLabel: UILabel!
 
     var game: GuessingGame!
 
@@ -18,13 +19,15 @@ class GuesserViewController: UIViewController {
     private func updateView() {
         if let currentPokemon = game.currentPokemon {
             image.image = UIImage(named: currentPokemon.imgName)
-            image.setImageColor(color: .red)
+            image.setImageColor(color: .darkGray)
 
             let options = game.getNameOptions()
 
             for idx in options.indices {
                 optionButtons[idx].setTitle(options[idx], for: .normal)
             }
+
+            scoreLabel.text = "Score: \(game.score)"
         } else {
             // TODO: GAME OVER
         }
@@ -42,8 +45,8 @@ class GuesserViewController: UIViewController {
     @objc func guessName(_ sender: UIButton) {
         if let guess = sender.titleLabel?.text {
             print(game.guessName(guess))
+            image.resetImageColor(animated: true, completion: updateView)
             game.nextPokemon()
         }
-        image.resetImageColor(animated: true, completion: updateView)
     }
 }
