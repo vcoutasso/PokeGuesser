@@ -24,7 +24,8 @@ class GuesserViewController: UIViewController {
 
     @objc func nextPoke(_: UIButton) {
         pokemon += 1
-//        let pokemonImage = ?.withRenderingMode(.alwaysTemplate)
-        image.image = UIImage(named: pokedex.pokemons[pokemon].imgName)!.withTintColor(UIColor.systemRed, renderingMode: .alwaysTemplate)
+        image.image = UIImage(named: pokedex.pokemons[pokemon].imgName)
+        image.setImageColor(color: .red)
+        image.resetImageColor()
     }
 }
