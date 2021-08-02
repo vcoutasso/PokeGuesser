@@ -19,13 +19,13 @@ class GuesserViewController: UIViewController {
         super.viewDidLoad()
         pokedex = .init()
         image.image = UIImage(named: pokedex.pokemons[pokemon].imgName)
+        image.setImageColor(color: .red)
         nextPokemon.addTarget(self, action: #selector(nextPoke), for: .touchUpInside)
     }
 
     @objc func nextPoke(_: UIButton) {
+        image.resetImageColor(animated: true)
         pokemon += 1
-        image.image = UIImage(named: pokedex.pokemons[pokemon].imgName)
-        image.setImageColor(color: .red)
-        image.resetImageColor()
+//        image.image = UIImage(named: pokedex.pokemons[pokemon].imgName)
     }
 }
