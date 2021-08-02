@@ -20,6 +20,12 @@ struct GuessingGame {
 
     var score = 0
 
+    // MARK: - Computed Variables
+
+    var pokemonCount: Int {
+        pokedex.pokemons.count - availablePokemons.count
+    }
+
     // MARK: - Initialization
 
     init() {
@@ -46,10 +52,11 @@ struct GuessingGame {
     }
 
     func guessNextEvolution(_ guess: String) -> Bool {
-        if let evolutionName = currentPokemon?.evolutionaryLine[(currentPokemon?
+        if let evolutionName = currentPokemon?.evolutionaryLine[
+            (currentPokemon?
                 .evolutionaryLine
-                .firstIndex(of: currentPokemon!.name))! + 1]
-        {
+                .firstIndex(of: currentPokemon!.name))! + 1
+        ] {
             if evolutionName == guess {
                 return true
             }
@@ -59,10 +66,11 @@ struct GuessingGame {
     }
 
     func guessPreviousEvolution(_ guess: String) -> Bool {
-        if let evolutionName = currentPokemon?.evolutionaryLine[(currentPokemon?
+        if let evolutionName = currentPokemon?.evolutionaryLine[
+            (currentPokemon?
                 .evolutionaryLine
-                .firstIndex(of: currentPokemon!.name))! - 1]
-        {
+                .firstIndex(of: currentPokemon!.name))! - 1
+        ] {
             if evolutionName == guess {
                 return true
             }

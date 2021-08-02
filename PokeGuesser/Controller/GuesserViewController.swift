@@ -14,12 +14,10 @@ class GuesserViewController: UIViewController {
 
     var game: GuessingGame!
 
-    var pokemon: Int = 0
-
     private func updateView() {
         if let currentPokemon = game.currentPokemon {
             image.image = UIImage(named: currentPokemon.imgName)
-            image.setImageColor(color: .darkGray)
+            image.setImageColor(color: #colorLiteral(red: 0, green: 0.07427774821, blue: 0.1634875211, alpha: 0.9029782529))
 
             let options = game.getNameOptions()
 
@@ -27,7 +25,7 @@ class GuesserViewController: UIViewController {
                 optionButtons[idx].setTitle(options[idx], for: .normal)
             }
 
-            scoreLabel.text = "Score: \(game.score)"
+            scoreLabel.text = "Score: \(game.score)/\(game.pokemonCount)"
         } else {
             // TODO: GAME OVER
         }
@@ -37,14 +35,20 @@ class GuesserViewController: UIViewController {
         super.viewDidLoad()
         game = GuessingGame()
         for button in optionButtons {
+            button.translatesAutoresizingMaskIntoConstraints = false
             button.addTarget(self, action: #selector(guessName), for: .touchUpInside)
+            button.titleLabel?.textAlignment = .center
+            button.titleLabel?.numberOfLines = 1
+            button.layer.cornerRadius = Constants.buttonCornerRadius
+            button.layer.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+            button.clipsToBounds = true
         }
         updateView()
     }
 
     @objc func guessName(_ sender: UIButton) {
         if let guess = sender.titleLabel?.text {
-            print(game.guessName(guess))
+            game.guessName(guess)
             image.resetImageColor(animated: true, completion: updateView)
             game.nextPokemon()
         }

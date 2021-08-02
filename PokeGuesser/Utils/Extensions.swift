@@ -17,10 +17,11 @@ extension UIImageView {
         if animated {
             UIView.transition(with: self,
                               duration: Constants.animationFadeDuration,
-                              options: .transitionCrossDissolve,
-                              animations: {
-                                  self.image = self.image?.withRenderingMode(.alwaysOriginal)
-                              }) { _ in completion() }
+                              options: .transitionCrossDissolve) {
+                self.image = self.image?.withRenderingMode(.alwaysOriginal)
+            } completion: { _ in
+                completion()
+            }
         } else {
             image = image?.withRenderingMode(.alwaysOriginal)
         }
