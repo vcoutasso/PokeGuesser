@@ -77,9 +77,10 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="U3L-Ic-aRK" firstAttribute="top" secondItem="Sqa-SM-kXX" secondAttribute="top" id="7bg-UY-F0S"/>
+                                    <constraint firstAttribute="trailing" secondItem="U3L-Ic-aRK" secondAttribute="trailing" id="QwI-u5-n5u"/>
                                     <constraint firstItem="Nro-GN-ayg" firstAttribute="top" secondItem="bzF-fo-uag" secondAttribute="bottom" constant="20" id="cxr-f0-3N8"/>
                                     <constraint firstItem="bzF-fo-uag" firstAttribute="leading" secondItem="Sqa-SM-kXX" secondAttribute="leading" id="d9y-I8-lvc"/>
-                                    <constraint firstItem="bzF-fo-uag" firstAttribute="top" secondItem="U3L-Ic-aRK" secondAttribute="bottom" constant="20" id="haU-Te-c9r"/>
                                     <constraint firstAttribute="trailing" secondItem="bzF-fo-uag" secondAttribute="trailing" id="np1-ww-Knq"/>
                                 </constraints>
                             </stackView>
@@ -92,6 +93,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sqa-SM-kXX" secondAttribute="trailing" constant="20" id="YW1-QC-9f8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="biB-wb-5lt" secondAttribute="trailing" constant="20" id="bAy-ms-6ws"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nro-GN-ayg" secondAttribute="bottom" constant="51" id="i0W-rh-om5"/>
+                            <constraint firstItem="U3L-Ic-aRK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="lkC-kW-jbH"/>
                             <constraint firstItem="Sqa-SM-kXX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="qPv-R6-39y"/>
                         </constraints>
                     </view>

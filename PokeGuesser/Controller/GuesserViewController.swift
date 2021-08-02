@@ -16,16 +16,20 @@ class GuesserViewController: UIViewController {
 
     private func updateView() {
         if let currentPokemon = game.currentPokemon {
-            image.image = UIImage(named: currentPokemon.imgName)
-            image.setImageColor(color: #colorLiteral(red: 0, green: 0.07427774821, blue: 0.1634875211, alpha: 0.9029782529))
+            UIView.transition(with: view,
+                              duration: Constants.pokemonTransitionDuration,
+                              options: [.transitionCrossDissolve, .curveEaseInOut]) {
+                self.image.image = UIImage(named: currentPokemon.imgName)
+                self.image.setImageColor(color: #colorLiteral(red: 0, green: 0.07427774821, blue: 0.1634875211, alpha: 0.9029782529))
 
-            let options = game.getNameOptions()
+                let options = self.game.getNameOptions()
 
-            for idx in options.indices {
-                optionButtons[idx].setTitle(options[idx], for: .normal)
+                for idx in options.indices {
+                    self.optionButtons[idx].setTitle(options[idx], for: .normal)
+                }
+
+                self.scoreLabel.text = "Score: \(self.game.score)/\(self.game.pokemonCount)"
             }
-
-            scoreLabel.text = "Score: \(game.score)/\(game.pokemonCount)"
         } else {
             // TODO: GAME OVER
         }
@@ -53,10 +57,10 @@ class GuesserViewController: UIViewController {
             image.resetImageColor(animated: true, completion: updateView)
             game.nextPokemon()
 
-            UIView.transition(with: sender, duration: 0.3, options: .curveLinear) {
+            UIView.transition(with: sender, duration: Constants.buttonAnimationDuration, options: .curveLinear) {
                 sender.backgroundColor = scored ? .green : .red
             } completion: { _ in
-                UIView.transition(with: sender, duration: 0.25, options: .curveLinear) {
+                UIView.transition(with: sender, duration: Constants.buttonAnimationDuration, options: .curveLinear) {
                     sender.layer.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
                 }
             }

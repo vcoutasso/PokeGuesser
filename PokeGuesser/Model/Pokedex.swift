@@ -27,7 +27,7 @@ struct Pokedex: Decodable {
                 let jsonData = try decoder.decode(Pokedex.self, from: data)
                 return jsonData.pokemons
             } catch {
-                print("error:\(error)")
+                print("Error loading pokedex data: \(error)")
             }
         }
         return nil
