@@ -1,0 +1,152 @@
+Name,Types,Evolutions
+Bulbasaur,Grass Poison,Bulbasaur Ivysaur Venusaur
+Ivysaur,Grass Poison,Bulbasaur Ivysaur Venusaur
+Venusaur,Grass Poison,Bulbasaur Ivysaur Venusaur
+Charmander,Fire,Charmander Charmeleon Charizard
+Charmeleon,Fire,Charmander Charmeleon Charizard
+Charizard,Fire Flying,Charmander Charmeleon Charizard
+Squirtle,Water,Squirtle Wartortle Blastoise
+Wartortle,Water,Squirtle Wartortle Blastoise
+Blastoise,Water,Squirtle Wartortle Blastoise
+Caterpie,Bug,Caterpie Metapod Butterfree
+Metapod,Bug,Caterpie Metapod Butterfree
+Butterfree,Bug Flying,Caterpie Metapod Butterfree
+Weedle,Bug Poison,Weedle Kakuna Beedrill
+Kakuna,Bug Poison,Weedle Kakuna Beedrill
+Beedrill,Bug Poison,Weedle Kakuna Beedrill
+Pidgey,Normal Flying,Pidgey Pidgeotto Pidgeot
+Pidgeotto,Normal Flying,Pidgey Pidgeotto Pidgeot
+Pidgeot,Normal Flying,Pidgey Pidgeotto Pidgeot
+Rattata,Normal,Rattata Raticate
+Raticate,Normal,Rattata Raticate
+Spearow,Normal Flying,Spearow Fearow
+Fearow,Normal Flying,Spearow Fearow
+Ekans,Poison,Ekans Arbok
+Arbok,Poison,Ekans Arbok
+Pikachu,Electric,Pikachu Raichu
+Raichu,Electric,Pikachu Raichu
+Sandshrew,Ground,Sandshrew Sandslash
+Sandslash,Ground,Sandshrew Sandslash
+Nidoran♀,Poison,Nidoran♀ Nidorina Nidoqueen
+Nidorina,Poison,Nidoran♀ Nidorina Nidoqueen
+Nidoqueen,Poison Ground,Nidoran♀ Nidorina Nidoqueen
+Nidoran♂,Poison,Nidoran♂ Nidorino Nidoking
+Nidorino,Poison,Nidoran♂ Nidorino Nidoking
+Nidoking,Poison Ground,Nidoran♂ Nidorino Nidoking
+Clefairy,Normal,Clefairy Clefable
+Clefable,Normal,Clefairy Clefable
+Vulpix,Fire,Vulpix Ninetales
+Ninetales,Fire,Vulpix Ninetales
+Jigglypuff,Normal,Jigglypuff Wigglytuff
+Wigglytuff,Normal,Jigglypuff Wigglytuff
+Zubat,Poison Flying,Zubat Golbat
+Golbat,Poison Flying,Zubat Golbat
+Oddish,Grass Poison,Oddish Gloom Vileplume
+Gloom,Grass Poison,Oddish Gloom Vileplume
+Vileplume,Grass Poison,Oddish Gloom Vileplume
+Paras,Bug Grass,Paras Parasect
+Parasect,Bug Grass,Paras Parasect
+Venonat,Bug Poison,Venonat Venomoth
+Venomoth,Bug Poison,Venonat Venomoth
+Diglett,Ground,Diglett Dugtrio
+Dugtrio,Ground,Diglett Dugtrio
+Meowth,Normal,Meowth Persian
+Persian,Normal,Meowth Persian
+Psyduck,Water,Psyduck Golduck
+Golduck,Water,Psyduck Golduck
+Mankey,Fighting,Mankey Primeape
+Primeape,Fighting,Mankey Primeape
+Growlithe,Fire,Growlithe Arcanine
+Arcanine,Fire,Growlithe Arcanine
+Poliwag,Water,Poliwag Poliwhirl Poliwrath
+Poliwhirl,Water,Poliwag Poliwhirl Poliwrath
+Poliwrath,Water Fighting,Poliwag Poliwhirl Poliwrath
+Abra,Psychic,Abra Kadabra Alakazam
+Kadabra,Psychic,Abra Kadabra Alakazam
+Alakazam,Psychic,Abra Kadabra Alakazam
+Machop,Fighting,Machop Machoke Machamp
+Machoke,Fighting,Machop Machoke Machamp
+Machamp,Fighting,Machop Machoke Machamp
+Bellsprout,Grass Poison,Bellsprout Weepinbell Victreebel
+Weepinbell,Grass Poison,Bellsprout Weepinbell Victreebel
+Victreebel,Grass Poison,Bellsprout Weepinbell Victreebel
+Tentacool,Water Poison,Tentacool Tentacruel
+Tentacruel,Water Poison,Tentacool Tentacruel
+Geodude,Rock Ground,Geodude Graveler Golem
+Graveler,Rock Ground,Geodude Graveler Golem
+Golem,Rock Ground,Geodude Graveler Golem
+Ponyta,Fire,Ponyta Rapidash
+Rapidash,Fire,Ponyta Rapidash
+Slowpoke,Water Psychic,Slowpoke Slowbro
+Slowbro,Water Psychic,Slowpoke Slowbro
+Magnemite,Electric,Magnemite Magneton
+Magneton,Electric,Magnemite Magneton
+Farfetch'd,Normal Flying,Farfetch'd
+Doduo,Normal Flying,Doduo Dodrio
+Dodrio,Normal Flying,Doduo Dodrio
+Seel,Water,Seel Dewgong
+Dewgong,Water Ice,Seel Dewgong
+Grimer,Poison,Grimer Muk
+Muk,Poison,Grimer Muk
+Shellder,Water,Shellder Cloyster
+Cloyster,Water Ice,Shellder Cloyster
+Gastly,Ghost Poison,Gastly Haunter Gengar
+Haunter,Ghost Poison,Gastly Haunter Gengar
+Gengar,Ghost Poison,Gastly Haunter Gengar
+Onix,Rock Ground,Onix
+Drowzee,Psychic,Drowzee Hypno
+Hypno,Psychic,Drowzee Hypno
+Krabby,Water,Krabby Kingler
+Kingler,Water,Krabby Kingler
+Voltorb,Electric,Voltorb Electrode
+Electrode,Electric,Voltorb Electrode
+Exeggcute,Grass Psychic,Exeggcute Exeggutor
+Exeggutor,Grass Psychic,Exeggcute Exeggutor
+Cubone,Ground,Cubone Marowak
+Marowak,Ground,Cubone Marowak
+Hitmonlee,Fighting,Hitmonlee Hitmonchan
+Hitmonchan,Fighting,Hitmonlee Hitmonchan
+Lickitung,Normal,Lickitung
+Koffing,Poison,Koffing Weezing
+Weezing,Poison,Koffing Weezing
+Rhyhorn,Ground Rock,Rhyhorn Rhydon
+Rhydon,Ground Rock,Rhyhorn Rhydon
+Chansey,Normal,Chansey
+Tangela,Grass,Tangela
+Kangaskhan,Normal,Kangaskhan
+Horsea,Water,Horsea Seadra
+Seadra,Water,Horsea Seadra
+Goldeen,Water,Goldeen Seaking
+Seaking,Water,Goldeen Seaking
+Staryu,Water,Staryu Starmie
+Starmie,Water Psychic,Staryu Starmie
+Mr.,Mime Psychic,Mr. Mime
+Scyther,Bug Flying,Scyther
+Jynx,Ice Psychic,Jynx
+Electabuzz,Electric,Electabuzz
+Magmar,Fire,Magmar
+Pinsir,Bug,Pinsir
+Tauros,Normal,Tauros
+Magikarp,Water,Magikarp Gyarados
+Gyarados,Water Flying,Magikarp Gyarados
+Lapras,Water Ice,Lapras
+Ditto,Normal,Ditto
+Eevee,Normal,Eevee Vaporeon Jolteon Flareon
+Vaporeon,Water,Eevee Vaporeon
+Jolteon,Electric,Eevee Jolteon
+Flareon,Fire,Eevee Flareon
+Porygon,Normal,Porygon
+Omanyte,Rock Water,Omanyte Omastar
+Omastar,Rock Water,Omanyte Omastar
+Kabuto,Rock Water,Kabuto Kabutops
+Kabutops,Rock Water,Kabuto Kabutops
+Aerodactyl,Rock Flying,Aerodactyl
+Snorlax,Normal,Snorlax
+Articuno,Ice Flying,Articuno
+Zapdos,Electric Flying,Zapdos
+Moltres,Fire Flying,Moltres
+Dratini,Dragon,Dratini Dragonair Dragonite
+Dragonair,Dragon,Dratini Dragonair Dragonite
+Dragonite,Dragon Flying,Dratini Dragonair Dragonite
+Mewtwo,Psychic,Mewtwo
+Mew,Psychic,Mew

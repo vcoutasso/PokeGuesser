@@ -4,3 +4,21 @@
 
   Created by Vinícius Couto on 30/07/21.
 */
+
+// Types
+
+//"Pokemon.Types.Bug" = "Bug";
+//"Pokemon.Types.Dragon" = "Dragon";
+//"Pokemon.Types.Electric" = "Electric";
+//"Pokemon.Types.Fighting" = "Fighting";
+//"Pokemon.Types.Fire" = "Fire";
+//"Pokemon.Types.Flying" = "Flying";
+//"Pokemon.Types.Ghost" = "Ghost";
+//"Pokemon.Types.Grass" = "Grass";
+//"Pokemon.Types.Ground"= "Ground";
+//"Pokemon.Types.Ice" = "Ice";
+//"Pokemon.Types.Normal" = "Normal";
+//"Pokemon.Types.Poison" = "Poison";
+//"Pokemon.Types.Psychic" = "Psychic";
+//"Pokemon.Types.Rock" = "Rock";
+//"Pokemon.Types.Water" = "Water";

@@ -1,0 +1,1754 @@
+{
+    "pokemons": [
+        {
+            "name": "Bulbasaur",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bulbasaur",
+                "Ivysaur",
+                "Venusaur"
+            ],
+            "imgName": "bulbasaur"
+        },
+        {
+            "name": "Ivysaur",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bulbasaur",
+                "Ivysaur",
+                "Venusaur"
+            ],
+            "imgName": "ivysaur"
+        },
+        {
+            "name": "Venusaur",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bulbasaur",
+                "Ivysaur",
+                "Venusaur"
+            ],
+            "imgName": "venusaur"
+        },
+        {
+            "name": "Charmander",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Charmander",
+                "Charmeleon",
+                "Charizard"
+            ],
+            "imgName": "charmander"
+        },
+        {
+            "name": "Charmeleon",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Charmander",
+                "Charmeleon",
+                "Charizard"
+            ],
+            "imgName": "charmeleon"
+        },
+        {
+            "name": "Charizard",
+            "types": [
+                "Fire",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Charmander",
+                "Charmeleon",
+                "Charizard"
+            ],
+            "imgName": "charizard"
+        },
+        {
+            "name": "Squirtle",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Squirtle",
+                "Wartortle",
+                "Blastoise"
+            ],
+            "imgName": "squirtle"
+        },
+        {
+            "name": "Wartortle",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Squirtle",
+                "Wartortle",
+                "Blastoise"
+            ],
+            "imgName": "wartortle"
+        },
+        {
+            "name": "Blastoise",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Squirtle",
+                "Wartortle",
+                "Blastoise"
+            ],
+            "imgName": "blastoise"
+        },
+        {
+            "name": "Caterpie",
+            "types": [
+                "Bug"
+            ],
+            "evolutionaryLine": [
+                "Caterpie",
+                "Metapod",
+                "Butterfree"
+            ],
+            "imgName": "caterpie"
+        },
+        {
+            "name": "Metapod",
+            "types": [
+                "Bug"
+            ],
+            "evolutionaryLine": [
+                "Caterpie",
+                "Metapod",
+                "Butterfree"
+            ],
+            "imgName": "metapod"
+        },
+        {
+            "name": "Butterfree",
+            "types": [
+                "Bug",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Caterpie",
+                "Metapod",
+                "Butterfree"
+            ],
+            "imgName": "butterfree"
+        },
+        {
+            "name": "Weedle",
+            "types": [
+                "Bug",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Weedle",
+                "Kakuna",
+                "Beedrill"
+            ],
+            "imgName": "weedle"
+        },
+        {
+            "name": "Kakuna",
+            "types": [
+                "Bug",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Weedle",
+                "Kakuna",
+                "Beedrill"
+            ],
+            "imgName": "kakuna"
+        },
+        {
+            "name": "Beedrill",
+            "types": [
+                "Bug",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Weedle",
+                "Kakuna",
+                "Beedrill"
+            ],
+            "imgName": "beedrill"
+        },
+        {
+            "name": "Pidgey",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Pidgey",
+                "Pidgeotto",
+                "Pidgeot"
+            ],
+            "imgName": "pidgey"
+        },
+        {
+            "name": "Pidgeotto",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Pidgey",
+                "Pidgeotto",
+                "Pidgeot"
+            ],
+            "imgName": "pidgeotto"
+        },
+        {
+            "name": "Pidgeot",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Pidgey",
+                "Pidgeotto",
+                "Pidgeot"
+            ],
+            "imgName": "pidgeot"
+        },
+        {
+            "name": "Rattata",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Rattata",
+                "Raticate"
+            ],
+            "imgName": "rattata"
+        },
+        {
+            "name": "Raticate",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Rattata",
+                "Raticate"
+            ],
+            "imgName": "raticate"
+        },
+        {
+            "name": "Spearow",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Spearow",
+                "Fearow"
+            ],
+            "imgName": "spearow"
+        },
+        {
+            "name": "Fearow",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Spearow",
+                "Fearow"
+            ],
+            "imgName": "fearow"
+        },
+        {
+            "name": "Ekans",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Ekans",
+                "Arbok"
+            ],
+            "imgName": "ekans"
+        },
+        {
+            "name": "Arbok",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Ekans",
+                "Arbok"
+            ],
+            "imgName": "arbok"
+        },
+        {
+            "name": "Pikachu",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Pikachu",
+                "Raichu"
+            ],
+            "imgName": "pikachu"
+        },
+        {
+            "name": "Raichu",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Pikachu",
+                "Raichu"
+            ],
+            "imgName": "raichu"
+        },
+        {
+            "name": "Sandshrew",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Sandshrew",
+                "Sandslash"
+            ],
+            "imgName": "sandshrew"
+        },
+        {
+            "name": "Sandslash",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Sandshrew",
+                "Sandslash"
+            ],
+            "imgName": "sandslash"
+        },
+        {
+            "name": "Nidoran\u2640",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2640",
+                "Nidorina",
+                "Nidoqueen"
+            ],
+            "imgName": "nidoran-f"
+        },
+        {
+            "name": "Nidorina",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2640",
+                "Nidorina",
+                "Nidoqueen"
+            ],
+            "imgName": "nidorina"
+        },
+        {
+            "name": "Nidoqueen",
+            "types": [
+                "Poison",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2640",
+                "Nidorina",
+                "Nidoqueen"
+            ],
+            "imgName": "nidoqueen"
+        },
+        {
+            "name": "Nidoran\u2642",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2642",
+                "Nidorino",
+                "Nidoking"
+            ],
+            "imgName": "nidoran-m"
+        },
+        {
+            "name": "Nidorino",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2642",
+                "Nidorino",
+                "Nidoking"
+            ],
+            "imgName": "nidorino"
+        },
+        {
+            "name": "Nidoking",
+            "types": [
+                "Poison",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Nidoran\u2642",
+                "Nidorino",
+                "Nidoking"
+            ],
+            "imgName": "nidoking"
+        },
+        {
+            "name": "Clefairy",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Clefairy",
+                "Clefable"
+            ],
+            "imgName": "clefairy"
+        },
+        {
+            "name": "Clefable",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Clefairy",
+                "Clefable"
+            ],
+            "imgName": "clefable"
+        },
+        {
+            "name": "Vulpix",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Vulpix",
+                "Ninetales"
+            ],
+            "imgName": "vulpix"
+        },
+        {
+            "name": "Ninetales",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Vulpix",
+                "Ninetales"
+            ],
+            "imgName": "ninetales"
+        },
+        {
+            "name": "Jigglypuff",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Jigglypuff",
+                "Wigglytuff"
+            ],
+            "imgName": "jigglypuff"
+        },
+        {
+            "name": "Wigglytuff",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Jigglypuff",
+                "Wigglytuff"
+            ],
+            "imgName": "wigglytuff"
+        },
+        {
+            "name": "Zubat",
+            "types": [
+                "Poison",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Zubat",
+                "Golbat"
+            ],
+            "imgName": "zubat"
+        },
+        {
+            "name": "Golbat",
+            "types": [
+                "Poison",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Zubat",
+                "Golbat"
+            ],
+            "imgName": "golbat"
+        },
+        {
+            "name": "Oddish",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Oddish",
+                "Gloom",
+                "Vileplume"
+            ],
+            "imgName": "oddish"
+        },
+        {
+            "name": "Gloom",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Oddish",
+                "Gloom",
+                "Vileplume"
+            ],
+            "imgName": "gloom"
+        },
+        {
+            "name": "Vileplume",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Oddish",
+                "Gloom",
+                "Vileplume"
+            ],
+            "imgName": "vileplume"
+        },
+        {
+            "name": "Paras",
+            "types": [
+                "Bug",
+                "Grass"
+            ],
+            "evolutionaryLine": [
+                "Paras",
+                "Parasect"
+            ],
+            "imgName": "paras"
+        },
+        {
+            "name": "Parasect",
+            "types": [
+                "Bug",
+                "Grass"
+            ],
+            "evolutionaryLine": [
+                "Paras",
+                "Parasect"
+            ],
+            "imgName": "parasect"
+        },
+        {
+            "name": "Venonat",
+            "types": [
+                "Bug",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Venonat",
+                "Venomoth"
+            ],
+            "imgName": "venonat"
+        },
+        {
+            "name": "Venomoth",
+            "types": [
+                "Bug",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Venonat",
+                "Venomoth"
+            ],
+            "imgName": "venomoth"
+        },
+        {
+            "name": "Diglett",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Diglett",
+                "Dugtrio"
+            ],
+            "imgName": "diglett"
+        },
+        {
+            "name": "Dugtrio",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Diglett",
+                "Dugtrio"
+            ],
+            "imgName": "dugtrio"
+        },
+        {
+            "name": "Meowth",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Meowth",
+                "Persian"
+            ],
+            "imgName": "meowth"
+        },
+        {
+            "name": "Persian",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Meowth",
+                "Persian"
+            ],
+            "imgName": "persian"
+        },
+        {
+            "name": "Psyduck",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Psyduck",
+                "Golduck"
+            ],
+            "imgName": "psyduck"
+        },
+        {
+            "name": "Golduck",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Psyduck",
+                "Golduck"
+            ],
+            "imgName": "golduck"
+        },
+        {
+            "name": "Mankey",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Mankey",
+                "Primeape"
+            ],
+            "imgName": "mankey"
+        },
+        {
+            "name": "Primeape",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Mankey",
+                "Primeape"
+            ],
+            "imgName": "primeape"
+        },
+        {
+            "name": "Growlithe",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Growlithe",
+                "Arcanine"
+            ],
+            "imgName": "growlithe"
+        },
+        {
+            "name": "Arcanine",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Growlithe",
+                "Arcanine"
+            ],
+            "imgName": "arcanine"
+        },
+        {
+            "name": "Poliwag",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Poliwag",
+                "Poliwhirl",
+                "Poliwrath"
+            ],
+            "imgName": "poliwag"
+        },
+        {
+            "name": "Poliwhirl",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Poliwag",
+                "Poliwhirl",
+                "Poliwrath"
+            ],
+            "imgName": "poliwhirl"
+        },
+        {
+            "name": "Poliwrath",
+            "types": [
+                "Water",
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Poliwag",
+                "Poliwhirl",
+                "Poliwrath"
+            ],
+            "imgName": "poliwrath"
+        },
+        {
+            "name": "Abra",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Abra",
+                "Kadabra",
+                "Alakazam"
+            ],
+            "imgName": "abra"
+        },
+        {
+            "name": "Kadabra",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Abra",
+                "Kadabra",
+                "Alakazam"
+            ],
+            "imgName": "kadabra"
+        },
+        {
+            "name": "Alakazam",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Abra",
+                "Kadabra",
+                "Alakazam"
+            ],
+            "imgName": "alakazam"
+        },
+        {
+            "name": "Machop",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Machop",
+                "Machoke",
+                "Machamp"
+            ],
+            "imgName": "machop"
+        },
+        {
+            "name": "Machoke",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Machop",
+                "Machoke",
+                "Machamp"
+            ],
+            "imgName": "machoke"
+        },
+        {
+            "name": "Machamp",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Machop",
+                "Machoke",
+                "Machamp"
+            ],
+            "imgName": "machamp"
+        },
+        {
+            "name": "Bellsprout",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bellsprout",
+                "Weepinbell",
+                "Victreebel"
+            ],
+            "imgName": "bellsprout"
+        },
+        {
+            "name": "Weepinbell",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bellsprout",
+                "Weepinbell",
+                "Victreebel"
+            ],
+            "imgName": "weepinbell"
+        },
+        {
+            "name": "Victreebel",
+            "types": [
+                "Grass",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Bellsprout",
+                "Weepinbell",
+                "Victreebel"
+            ],
+            "imgName": "victreebel"
+        },
+        {
+            "name": "Tentacool",
+            "types": [
+                "Water",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Tentacool",
+                "Tentacruel"
+            ],
+            "imgName": "tentacool"
+        },
+        {
+            "name": "Tentacruel",
+            "types": [
+                "Water",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Tentacool",
+                "Tentacruel"
+            ],
+            "imgName": "tentacruel"
+        },
+        {
+            "name": "Geodude",
+            "types": [
+                "Rock",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Geodude",
+                "Graveler",
+                "Golem"
+            ],
+            "imgName": "geodude"
+        },
+        {
+            "name": "Graveler",
+            "types": [
+                "Rock",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Geodude",
+                "Graveler",
+                "Golem"
+            ],
+            "imgName": "graveler"
+        },
+        {
+            "name": "Golem",
+            "types": [
+                "Rock",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Geodude",
+                "Graveler",
+                "Golem"
+            ],
+            "imgName": "golem"
+        },
+        {
+            "name": "Ponyta",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Ponyta",
+                "Rapidash"
+            ],
+            "imgName": "ponyta"
+        },
+        {
+            "name": "Rapidash",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Ponyta",
+                "Rapidash"
+            ],
+            "imgName": "rapidash"
+        },
+        {
+            "name": "Slowpoke",
+            "types": [
+                "Water",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Slowpoke",
+                "Slowbro"
+            ],
+            "imgName": "slowpoke"
+        },
+        {
+            "name": "Slowbro",
+            "types": [
+                "Water",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Slowpoke",
+                "Slowbro"
+            ],
+            "imgName": "slowbro"
+        },
+        {
+            "name": "Magnemite",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Magnemite",
+                "Magneton"
+            ],
+            "imgName": "magnemite"
+        },
+        {
+            "name": "Magneton",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Magnemite",
+                "Magneton"
+            ],
+            "imgName": "magneton"
+        },
+        {
+            "name": "Farfetch'd",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Farfetch'd"
+            ],
+            "imgName": "farfetchd"
+        },
+        {
+            "name": "Doduo",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Doduo",
+                "Dodrio"
+            ],
+            "imgName": "doduo"
+        },
+        {
+            "name": "Dodrio",
+            "types": [
+                "Normal",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Doduo",
+                "Dodrio"
+            ],
+            "imgName": "dodrio"
+        },
+        {
+            "name": "Seel",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Seel",
+                "Dewgong"
+            ],
+            "imgName": "seel"
+        },
+        {
+            "name": "Dewgong",
+            "types": [
+                "Water",
+                "Ice"
+            ],
+            "evolutionaryLine": [
+                "Seel",
+                "Dewgong"
+            ],
+            "imgName": "dewgong"
+        },
+        {
+            "name": "Grimer",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Grimer",
+                "Muk"
+            ],
+            "imgName": "grimer"
+        },
+        {
+            "name": "Muk",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Grimer",
+                "Muk"
+            ],
+            "imgName": "muk"
+        },
+        {
+            "name": "Shellder",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Shellder",
+                "Cloyster"
+            ],
+            "imgName": "shellder"
+        },
+        {
+            "name": "Cloyster",
+            "types": [
+                "Water",
+                "Ice"
+            ],
+            "evolutionaryLine": [
+                "Shellder",
+                "Cloyster"
+            ],
+            "imgName": "cloyster"
+        },
+        {
+            "name": "Gastly",
+            "types": [
+                "Ghost",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Gastly",
+                "Haunter",
+                "Gengar"
+            ],
+            "imgName": "gastly"
+        },
+        {
+            "name": "Haunter",
+            "types": [
+                "Ghost",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Gastly",
+                "Haunter",
+                "Gengar"
+            ],
+            "imgName": "haunter"
+        },
+        {
+            "name": "Gengar",
+            "types": [
+                "Ghost",
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Gastly",
+                "Haunter",
+                "Gengar"
+            ],
+            "imgName": "gengar"
+        },
+        {
+            "name": "Onix",
+            "types": [
+                "Rock",
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Onix"
+            ],
+            "imgName": "onix"
+        },
+        {
+            "name": "Drowzee",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Drowzee",
+                "Hypno"
+            ],
+            "imgName": "drowzee"
+        },
+        {
+            "name": "Hypno",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Drowzee",
+                "Hypno"
+            ],
+            "imgName": "hypno"
+        },
+        {
+            "name": "Krabby",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Krabby",
+                "Kingler"
+            ],
+            "imgName": "krabby"
+        },
+        {
+            "name": "Kingler",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Krabby",
+                "Kingler"
+            ],
+            "imgName": "kingler"
+        },
+        {
+            "name": "Voltorb",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Voltorb",
+                "Electrode"
+            ],
+            "imgName": "voltorb"
+        },
+        {
+            "name": "Electrode",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Voltorb",
+                "Electrode"
+            ],
+            "imgName": "electrode"
+        },
+        {
+            "name": "Exeggcute",
+            "types": [
+                "Grass",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Exeggcute",
+                "Exeggutor"
+            ],
+            "imgName": "exeggcute"
+        },
+        {
+            "name": "Exeggutor",
+            "types": [
+                "Grass",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Exeggcute",
+                "Exeggutor"
+            ],
+            "imgName": "exeggutor"
+        },
+        {
+            "name": "Cubone",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Cubone",
+                "Marowak"
+            ],
+            "imgName": "cubone"
+        },
+        {
+            "name": "Marowak",
+            "types": [
+                "Ground"
+            ],
+            "evolutionaryLine": [
+                "Cubone",
+                "Marowak"
+            ],
+            "imgName": "marowak"
+        },
+        {
+            "name": "Hitmonlee",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Hitmonlee",
+                "Hitmonchan"
+            ],
+            "imgName": "hitmonlee"
+        },
+        {
+            "name": "Hitmonchan",
+            "types": [
+                "Fighting"
+            ],
+            "evolutionaryLine": [
+                "Hitmonlee",
+                "Hitmonchan"
+            ],
+            "imgName": "hitmonchan"
+        },
+        {
+            "name": "Lickitung",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Lickitung"
+            ],
+            "imgName": "lickitung"
+        },
+        {
+            "name": "Koffing",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Koffing",
+                "Weezing"
+            ],
+            "imgName": "koffing"
+        },
+        {
+            "name": "Weezing",
+            "types": [
+                "Poison"
+            ],
+            "evolutionaryLine": [
+                "Koffing",
+                "Weezing"
+            ],
+            "imgName": "weezing"
+        },
+        {
+            "name": "Rhyhorn",
+            "types": [
+                "Ground",
+                "Rock"
+            ],
+            "evolutionaryLine": [
+                "Rhyhorn",
+                "Rhydon"
+            ],
+            "imgName": "rhyhorn"
+        },
+        {
+            "name": "Rhydon",
+            "types": [
+                "Ground",
+                "Rock"
+            ],
+            "evolutionaryLine": [
+                "Rhyhorn",
+                "Rhydon"
+            ],
+            "imgName": "rhydon"
+        },
+        {
+            "name": "Chansey",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Chansey"
+            ],
+            "imgName": "chansey"
+        },
+        {
+            "name": "Tangela",
+            "types": [
+                "Grass"
+            ],
+            "evolutionaryLine": [
+                "Tangela"
+            ],
+            "imgName": "tangela"
+        },
+        {
+            "name": "Kangaskhan",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Kangaskhan"
+            ],
+            "imgName": "kangaskhan"
+        },
+        {
+            "name": "Horsea",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Horsea",
+                "Seadra"
+            ],
+            "imgName": "horsea"
+        },
+        {
+            "name": "Seadra",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Horsea",
+                "Seadra"
+            ],
+            "imgName": "seadra"
+        },
+        {
+            "name": "Goldeen",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Goldeen",
+                "Seaking"
+            ],
+            "imgName": "goldeen"
+        },
+        {
+            "name": "Seaking",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Goldeen",
+                "Seaking"
+            ],
+            "imgName": "seaking"
+        },
+        {
+            "name": "Staryu",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Staryu",
+                "Starmie"
+            ],
+            "imgName": "staryu"
+        },
+        {
+            "name": "Starmie",
+            "types": [
+                "Water",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Staryu",
+                "Starmie"
+            ],
+            "imgName": "starmie"
+        },
+        {
+            "name": "Mr. Mime",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Mr. Mime"
+            ],
+            "imgName": "mr-mime"
+        },
+        {
+            "name": "Scyther",
+            "types": [
+                "Bug",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Scyther"
+            ],
+            "imgName": "scyther"
+        },
+        {
+            "name": "Jynx",
+            "types": [
+                "Ice",
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Jynx"
+            ],
+            "imgName": "jynx"
+        },
+        {
+            "name": "Electabuzz",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Electabuzz"
+            ],
+            "imgName": "electabuzz"
+        },
+        {
+            "name": "Magmar",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Magmar"
+            ],
+            "imgName": "magmar"
+        },
+        {
+            "name": "Pinsir",
+            "types": [
+                "Bug"
+            ],
+            "evolutionaryLine": [
+                "Pinsir"
+            ],
+            "imgName": "pinsir"
+        },
+        {
+            "name": "Tauros",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Tauros"
+            ],
+            "imgName": "tauros"
+        },
+        {
+            "name": "Magikarp",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Magikarp",
+                "Gyarados"
+            ],
+            "imgName": "magikarp"
+        },
+        {
+            "name": "Gyarados",
+            "types": [
+                "Water",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Magikarp",
+                "Gyarados"
+            ],
+            "imgName": "gyarados"
+        },
+        {
+            "name": "Lapras",
+            "types": [
+                "Water",
+                "Ice"
+            ],
+            "evolutionaryLine": [
+                "Lapras"
+            ],
+            "imgName": "lapras"
+        },
+        {
+            "name": "Ditto",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Ditto"
+            ],
+            "imgName": "ditto"
+        },
+        {
+            "name": "Eevee",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Eevee",
+                "Vaporeon",
+                "Jolteon",
+                "Flareon"
+            ],
+            "imgName": "eevee"
+        },
+        {
+            "name": "Vaporeon",
+            "types": [
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Eevee",
+                "Vaporeon"
+            ],
+            "imgName": "vaporeon"
+        },
+        {
+            "name": "Jolteon",
+            "types": [
+                "Electric"
+            ],
+            "evolutionaryLine": [
+                "Eevee",
+                "Jolteon"
+            ],
+            "imgName": "jolteon"
+        },
+        {
+            "name": "Flareon",
+            "types": [
+                "Fire"
+            ],
+            "evolutionaryLine": [
+                "Eevee",
+                "Flareon"
+            ],
+            "imgName": "flareon"
+        },
+        {
+            "name": "Porygon",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Porygon"
+            ],
+            "imgName": "porygon"
+        },
+        {
+            "name": "Omanyte",
+            "types": [
+                "Rock",
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Omanyte",
+                "Omastar"
+            ],
+            "imgName": "omanyte"
+        },
+        {
+            "name": "Omastar",
+            "types": [
+                "Rock",
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Omanyte",
+                "Omastar"
+            ],
+            "imgName": "omastar"
+        },
+        {
+            "name": "Kabuto",
+            "types": [
+                "Rock",
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Kabuto",
+                "Kabutops"
+            ],
+            "imgName": "kabuto"
+        },
+        {
+            "name": "Kabutops",
+            "types": [
+                "Rock",
+                "Water"
+            ],
+            "evolutionaryLine": [
+                "Kabuto",
+                "Kabutops"
+            ],
+            "imgName": "kabutops"
+        },
+        {
+            "name": "Aerodactyl",
+            "types": [
+                "Rock",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Aerodactyl"
+            ],
+            "imgName": "aerodactyl"
+        },
+        {
+            "name": "Snorlax",
+            "types": [
+                "Normal"
+            ],
+            "evolutionaryLine": [
+                "Snorlax"
+            ],
+            "imgName": "snorlax"
+        },
+        {
+            "name": "Articuno",
+            "types": [
+                "Ice",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Articuno"
+            ],
+            "imgName": "articuno"
+        },
+        {
+            "name": "Zapdos",
+            "types": [
+                "Electric",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Zapdos"
+            ],
+            "imgName": "zapdos"
+        },
+        {
+            "name": "Moltres",
+            "types": [
+                "Fire",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Moltres"
+            ],
+            "imgName": "moltres"
+        },
+        {
+            "name": "Dratini",
+            "types": [
+                "Dragon"
+            ],
+            "evolutionaryLine": [
+                "Dratini",
+                "Dragonair",
+                "Dragonite"
+            ],
+            "imgName": "dratini"
+        },
+        {
+            "name": "Dragonair",
+            "types": [
+                "Dragon"
+            ],
+            "evolutionaryLine": [
+                "Dratini",
+                "Dragonair",
+                "Dragonite"
+            ],
+            "imgName": "dragonair"
+        },
+        {
+            "name": "Dragonite",
+            "types": [
+                "Dragon",
+                "Flying"
+            ],
+            "evolutionaryLine": [
+                "Dratini",
+                "Dragonair",
+                "Dragonite"
+            ],
+            "imgName": "dragonite"
+        },
+        {
+            "name": "Mewtwo",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Mewtwo"
+            ],
+            "imgName": "mewtwo"
+        },
+        {
+            "name": "Mew",
+            "types": [
+                "Psychic"
+            ],
+            "evolutionaryLine": [
+                "Mew"
+            ],
+            "imgName": "mew"
+        }
+    ]
+}
