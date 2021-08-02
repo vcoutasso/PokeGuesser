@@ -48,9 +48,18 @@ class GuesserViewController: UIViewController {
 
     @objc func guessName(_ sender: UIButton) {
         if let guess = sender.titleLabel?.text {
-            game.guessName(guess)
+            let scored = game.guessName(guess)
+
             image.resetImageColor(animated: true, completion: updateView)
             game.nextPokemon()
+
+            UIView.transition(with: sender, duration: 0.3, options: .curveLinear) {
+                sender.backgroundColor = scored ? .green : .red
+            } completion: { _ in
+                UIView.transition(with: sender, duration: 0.25, options: .curveLinear) {
+                    sender.layer.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+                }
+            }
         }
     }
 }
