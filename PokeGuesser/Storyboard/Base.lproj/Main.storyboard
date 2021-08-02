@@ -21,7 +21,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoW-sa-1j1">
-                                <rect key="frame" x="191" y="603" width="32" height="30"/>
+                                <rect key="frame" x="87" y="609" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6im-92-cXR">
+                                <rect key="frame" x="87" y="713" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwv-p8-9Im">
+                                <rect key="frame" x="295" y="609" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mg-iv-cRt">
+                                <rect key="frame" x="295" y="713" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                             </button>
@@ -31,7 +46,10 @@
                     </view>
                     <connections>
                         <outlet property="image" destination="bzF-fo-uag" id="c4q-wR-eAR"/>
-                        <outlet property="nextPokemon" destination="WoW-sa-1j1" id="wCb-2I-AXb"/>
+                        <outletCollection property="optionButtons" destination="WoW-sa-1j1" collectionClass="NSMutableArray" id="AS8-5A-mNJ"/>
+                        <outletCollection property="optionButtons" destination="fwv-p8-9Im" collectionClass="NSMutableArray" id="kME-Ed-eAK"/>
+                        <outletCollection property="optionButtons" destination="6im-92-cXR" collectionClass="NSMutableArray" id="psp-VR-wUh"/>
+                        <outletCollection property="optionButtons" destination="6mg-iv-cRt" collectionClass="NSMutableArray" id="cw1-ay-Ck8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

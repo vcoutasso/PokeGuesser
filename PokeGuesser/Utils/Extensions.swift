@@ -13,13 +13,14 @@ extension UIImageView {
         tintColor = color
     }
 
-    func resetImageColor(animated: Bool) {
+    func resetImageColor(animated: Bool, completion: @escaping () -> Void) {
         if animated {
             UIView.transition(with: self,
                               duration: Constants.animationFadeDuration,
                               options: .transitionCrossDissolve,
-                              animations: { self.image = self.image?.withRenderingMode(.alwaysOriginal) },
-                              completion: nil)
+                              animations: {
+                                  self.image = self.image?.withRenderingMode(.alwaysOriginal)
+                              }) { _ in completion() }
         } else {
             image = image?.withRenderingMode(.alwaysOriginal)
         }

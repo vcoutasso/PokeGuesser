@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Pokemon: Decodable {
+struct Pokemon: Decodable, Equatable {
     let name: String
     let types: [String]
     let evolutionaryLine: [String]
